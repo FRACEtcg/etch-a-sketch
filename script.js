@@ -4,7 +4,8 @@ let x;
 let toggler = false;
 let color = 'black';
 let cells;
-function grid() { //grid creator function
+function grid() {
+	//grid creator function
 	container.innerHTML = ''; //clears grid
 	container.style.gridTemplate = `repeat(${n}, 1fr) / repeat(${n}, 1fr)`;
 	for (var i = 0; i < n * n; i++) {
@@ -82,7 +83,8 @@ let addev = function (e) {
 	//coloring function
 	e.target.style.backgroundColor = color;
 };
-function toggle() { //toggle function needs revisioning
+function toggle() {
+	//toggle function needs revisioning
 	// toggle between painting/moving around
 	toggler = !toggler;
 	if (toggler === true) {
