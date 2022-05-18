@@ -30,6 +30,9 @@ header, footer {
   justify-content: center;
   align-items: center;
 }
+#gridnum, #createbtn {
+  display: none;
+}
 button {
   width: 150px;
   height: 30px;
@@ -51,7 +54,7 @@ button {
   z-index: 2;
 }
 .cell {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   border: solid 1px rgb(75, 61, 93);
 }
 .cell:hover {

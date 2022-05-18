@@ -22,8 +22,15 @@
 	<body>
 		<header></header>
 		<div class="aside">
+			<button id="gridsize">NEW GRID</button>
+			<input type="range" id="gridnum" name="gridrange" min="2" max="64" value="16" />
+			<label for="gridnum" id="gridnumlab"></label>
+			<button id="createbtn">CREATE</button>
 			<button id="show">SHOW GRID</button>
 			<button id="clear">CLEAR GRID</button>
+			<button id="eraser">ERASER</button>
+			<label for="colorpicker">Choose the color</label>
+			<input type="color" id="colorpicker" value="#000000" />
 		</div>
 		<div class="outer">
 			<div class="container"></div>
