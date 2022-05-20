@@ -46,11 +46,13 @@ show.addEventListener('click', () => {
 	if (ifborders) {
 		Array.from(document.querySelectorAll('.cell')).forEach((e) => {
 			e.style.border = 'none';
+			show.textContent = 'SHOW GRID';
 		});
 		ifborders = false;
 	} else {
 		Array.from(document.querySelectorAll('.cell')).forEach((e) => {
 			e.style.border = 'solid 1px rgb(75, 61, 93)';
+			show.textContent = 'HIDE GRID';
 		});
 		ifborders = true;
 	}
